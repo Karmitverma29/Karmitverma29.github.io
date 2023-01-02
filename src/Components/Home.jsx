@@ -2,7 +2,6 @@ import React from "react";
 import Intro from "./Intro";
 import AvatarWithRipple from "./Avatar";
 import { Button } from '@chakra-ui/react';
-// import {AiOutlineArrowRight} from "react-icons";
 function Home(){
     let change=(e)=>{
 
@@ -15,7 +14,7 @@ function Home(){
 
     }
     return <div >
-        <div style={{height:"600px",width:"100%",border:"1px solid black"}}>
+        <div style={{height:"600px",width:"100%"}}>
         
 <h1 style={{textAlign:"center",fontSize:"35px",fontWeight:"600",marginTop:"40px"}}>Hi, I am Karmit Verma,</h1>
 <h2 style={{textAlign:"center",fontSize:"35px",fontWeight:"600",marginTop:"20px",color:"#ffb301"}}>{<Intro/>}</h2>

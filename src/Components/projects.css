@@ -1,0 +1,35 @@
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 35px;
+
+}
+.live_btn:hover{
+    background-color: #ffb301;
+    color: #ffffff;
+}
+.code_btn:hover{
+    background-color: #ffb301;
+    color: #ffffff;
+}
+.image:hover{
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+box-shadow: 0 0 0 3px #ffb301;
+}
+.btns{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+@media screen and (max-width:740px){
+    .projects{
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+
+    }
+    
+}

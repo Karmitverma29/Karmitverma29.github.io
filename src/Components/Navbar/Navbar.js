@@ -2,7 +2,6 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-
 function Navbar() {
 	const navRef = useRef();
 
@@ -12,7 +11,8 @@ function Navbar() {
 
 	return (
 		<header>
-			<h1 style={{fontSize:"28px",fontWeight:"700",color:"#ffffff"}}><span style={{color:"black"}}>Karmit</span> Verma</h1>
+			<a href="/">
+			<h1 style={{fontSize:"28px",fontWeight:"700",color:"#ffffff"}}><span style={{color:"black"}}>Karmit</span> Verma</h1></a>
 			<nav ref={navRef}>
 				<Link style={{fontSize:"18px",fontWeight:"600"}} to="/">Home</Link>
 				<Link style={{fontSize:"18px",fontWeight:"600"}} to="/about">About me</Link>

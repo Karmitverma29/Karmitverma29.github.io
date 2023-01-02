@@ -12,10 +12,10 @@ function AllRoutes(){
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
-            <Route path="skills" element={<Skills/>}/>
-            <Route path="projects" element={<Projects/>}/>
-            <Route path="gitStats" element={<Git/>}/>
-            <Route path="contact" element={<Contact/>}/>
+            <Route path="/skills" element={<Skills/>}/>
+            <Route path="/projects" element={<Projects/>}/>
+            <Route path="/gitStats" element={<Git/>}/>
+            <Route path="/contact" element={<Contact/>}/>
 
         </Routes>
 

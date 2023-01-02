@@ -1,7 +1,8 @@
 import React from "react";
+import ContactFormWithSocialButtons from "./Contact-part1";
 function Contact(){
     return <div>
-<h1 style={{textAlign:"center",fontSize:"50px"}}>Hello</h1>
+        <ContactFormWithSocialButtons/>
     </div>
 }
 

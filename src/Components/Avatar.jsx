@@ -46,11 +46,12 @@ export default function AvatarWithRipple() {
           animation: `2.25s ${pulseRing} cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite`,
         }}>
         <Avatar
-          src={`${process.env.PUBLIC_URL}/karmitverma.jpg`} alt="Profile_pic"
+          src={`${process.env.PUBLIC_URL}/karmitverma2.jpg`} alt="Profile_pic"
 
           size="full"
           position="absolute"
           top={0}
+          style={{backgroundSize:"cover"}}
         />
       </Box>
     </Flex>
