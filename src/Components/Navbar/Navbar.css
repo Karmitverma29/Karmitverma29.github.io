@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 
 * {
 	padding: 0;
@@ -22,9 +22,13 @@ header {
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
-}
+	/* overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%; */
+ } 
 
-nav a {
+ nav a {
 	margin: 0 1rem;
 	color: var(--textColor);
 	text-decoration: none;
@@ -87,4 +91,5 @@ nav {
 	nav a {
 		font-size: 1.5rem;
 	}
-}
+} 
+

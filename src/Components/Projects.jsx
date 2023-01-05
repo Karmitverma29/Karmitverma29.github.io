@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css"
 function Projects(){
-    return <div className="projects" style={{width:"60%",height:"1000px",margin:"auto",marginTop:"20px"}}>
+    return <div className="projects" style={{width:"60%",height:"1100px",margin:"auto",marginTop:"20px"}}>
 
 <div  className="child" style={{border:"3px solid #ffb301",borderRadius:"10px"}}>
 <img className="image" style={{height:"50%",width:"100%",borderRadius:"10px"}} src={`${process.env.PUBLIC_URL}/booking.png`} alt="img"/>
@@ -14,9 +14,9 @@ HTML | CSS | JavaScript
 
 </h2>
 <div className="btns" style={{height:"60px",width:"250px",margin:"auto",marginTop:"10px"}}>
-    <a href="https://elastic-afterthought-7316.vercel.app/index.html">
+    <a href="https://elastic-afterthought-7316.vercel.app/index.html" rel="noreferrer" target="_blank">
 <button className="live_btn" style={{height:"30px",width:"100px",border:"3px solid #ffb301",borderRadius:"10px",fontWeight:"600"}}>Live</button></a>
-<a href="https://github.com/Karmitverma29/elastic-afterthought-7316">
+<a href="https://github.com/Karmitverma29/elastic-afterthought-7316" rel="noreferrer" target="_blank">
 
 <button className="code_btn" style={{height:"30px",width:"100px",border:"3px solid #ffb301",borderRadius:"10px",fontWeight:"600"}}>Souce code</button>
 </a>
@@ -37,9 +37,9 @@ HTML | CSS | JavaScript
 </h2>
 
 <div className="btns" style={{height:"60px",width:"250px",margin:"auto",marginTop:"10px"}}>
-    <a href="https://skincare-delta.vercel.app/index.html">
+    <a href="https://skincare-delta.vercel.app/index.html" rel="noreferrer" target="_blank">
 <button className="live_btn" style={{height:"30px",width:"100px",border:"3px solid #ffb301",borderRadius:"10px",fontWeight:"600"}}>Live</button></a>
-<a href="https://github.com/srock2580/red-sail-4113">
+<a href="https://github.com/srock2580/red-sail-4113" rel="noreferrer" target="_blank">
 
 <button className="code_btn" style={{height:"30px",width:"100px",border:"3px solid #ffb301",borderRadius:"10px",fontWeight:"600"}}>Souce code</button>
 </a>
@@ -56,10 +56,10 @@ Mailtrap is a fake SMTP server designed to test, view, and share emails.
 React.js | HTML | CSS | Javascript
 </h2>
 <div className="btns" style={{height:"60px",width:"250px",margin:"auto",marginTop:"10px"}}>
-    <a href="https://equal-part-8697-ps35.vercel.app/">
+    <a href="https://equal-part-8697-ps35.vercel.app/" rel="noreferrer" target="_blank">
 <button className="live_btn" style={{height:"30px",width:"100px",border:"3px solid #ffb301",borderRadius:"10px",fontWeight:"600"}}>Live</button>
 </a>
-<a href="https://github.com/Karmitverma29/equal-part-8697">
+<a href="https://github.com/Karmitverma29/equal-part-8697" rel="noreferrer" target="_blank">
 
 <button className="code_btn" style={{height:"30px",width:"100px",border:"3px solid #ffb301",borderRadius:"10px",fontWeight:"600"}}>Souce code</button>
 </a>

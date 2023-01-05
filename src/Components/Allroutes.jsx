@@ -4,7 +4,7 @@ import {About} from "./About";
 import {Contact} from "./Contact";
 import {Skills} from "./Skills";
 import {Home} from "./Home";
-import {Git} from "./Git";
+import Git from "./Git";
 import {Projects} from "./Projects";
 function AllRoutes(){
     return <div>

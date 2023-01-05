@@ -37,7 +37,7 @@ import {
   
     return (
       <Flex
-        bg={useColorModeValue('#ffffff', '#ffffff')}
+        // bg={useColorModeValue('#ffffff', '#ffffff')}
         align="center"
         justify="center"
         css={{

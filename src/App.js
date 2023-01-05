@@ -1,13 +1,13 @@
 import './App.css';
 import React from "react";
-import Allroutes from "./Components/Allroutes";
+import AllRoutes from "./Components/Allroutes"
 import Navbar from './Components/Navbar/Navbar';
-import SmallCentered from './Components/Footer/footer';
+import Footer from './Components/Footer/footer';
 function App() {
-  return <div>
+  return <div className='app'>
       <Navbar/>
-  <Allroutes/>
-  <SmallCentered/>
+      <AllRoutes/>
+      <Footer/>
   </div>
 }
 
