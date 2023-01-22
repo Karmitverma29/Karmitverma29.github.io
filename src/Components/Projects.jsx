@@ -3,7 +3,7 @@ import "./projects.css"
 function Projects(){
     return <div className="projects" style={{width:"60%",height:"1100px",margin:"auto",marginTop:"20px"}}>
 
-<div  className="child" style={{border:"3px solid #ffb301",borderRadius:"10px"}}>
+<div  className="child" style={{border:"3px solid #ffb301",borderRadius:"10px",backgroundColor:"#ffffff"}}>
 <img className="image" style={{height:"50%",width:"100%",borderRadius:"10px"}} src={`${process.env.PUBLIC_URL}/booking.png`} alt="img"/>
 <h1 className="heading" style={{fontSize:"24px",fontWeight:"600",textAlign:"center",marginTop:"10px",color:"#ffb301"}}>Replica of Booking.com</h1>
 <p style={{textAlign:"center",fontSize:"16px"}}>
@@ -24,7 +24,7 @@ HTML | CSS | JavaScript
 
 
 </div>
-<div className="child" style={{border:"3px solid #ffb301",borderRadius:"10px"}}>
+<div className="child" style={{border:"3px solid #ffb301",borderRadius:"10px",backgroundColor:"#ffffff"}}>
 
 <img className="image"  style={{height:"50%",width:"100%",borderRadius:"10px"}} src={`${process.env.PUBLIC_URL}/nordstorm.png`} alt="img"/>
 <h1 className="heading" style={{fontSize:"24px",fontWeight:"600",textAlign:"center",marginTop:"10px",color:"#ffb301"}}>Replica of NordStorm (E-commerce)</h1>
@@ -36,7 +36,7 @@ Nordstrom is an American luxury department store that offers a wide variety of t
 HTML | CSS | JavaScript
 </h2>
 
-<div className="btns" style={{height:"60px",width:"250px",margin:"auto",marginTop:"10px"}}>
+<div className="btns" style={{height:"60px",width:"250px",margin:"auto",marginTop:"10px",backgroundColor:"#ffffff"}}>
     <a href="https://skincare-delta.vercel.app/index.html" rel="noreferrer" target="_blank">
 <button className="live_btn" style={{height:"30px",width:"100px",border:"3px solid #ffb301",borderRadius:"10px",fontWeight:"600"}}>Live</button></a>
 <a href="https://github.com/srock2580/red-sail-4113" rel="noreferrer" target="_blank">
@@ -46,7 +46,7 @@ HTML | CSS | JavaScript
 </div>
 
 </div>
-<div className="child" style={{border:"3px solid #ffb301",borderRadius:"10px"}}>
+<div className="child" style={{border:"3px solid #ffb301",borderRadius:"10px",backgroundColor:"#ffffff"}}>
 <img className="image"  style={{height:"50%",width:"100%",borderRadius:"10px"}} src={`${process.env.PUBLIC_URL}/mailtrap.png`} alt="img"/>
 <h1 className="heading" style={{fontSize:"24px",fontWeight:"600",textAlign:"center",marginTop:"10px",color:"#ffb301"}}>Replica of Mailtrap</h1>
 <p style={{textAlign:"center",fontSize:"16px"}}>
@@ -65,9 +65,24 @@ React.js | HTML | CSS | Javascript
 </a>
 </div>
 </div>
-<div className="child" style={{border:"3px solid #ffb301",borderRadius:"10px"}}>
-{/* <img src={`${process.env.PUBLIC_URL}/karmitverma2.jpg`} alt="img"/> */}
+<div className="child" style={{border:"3px solid #ffb301",borderRadius:"10px",backgroundColor:"#ffffff"}}>
+<img className="image"  style={{height:"50%",width:"100%",borderRadius:"10px"}} src={`${process.env.PUBLIC_URL}/rodan.png`} alt="img"/>
+<h1 className="heading" style={{fontSize:"24px",fontWeight:"600",textAlign:"center",marginTop:"10px",color:"#ffb301"}}>Replica of Rodan & Fields</h1>
+<p style={{textAlign:"center",fontSize:"16px"}}>
+Rodan & Fields, LLC, known as Rodan + Fields or R+F, is an American multi-level marketing company specializing in skincare products.
+</p>
+<h2 style={{textAlign:"center",fontSize:"16px"}}><span style={{color:"#ffb301",fontWeight:"600"}}>Tech Stack:</span>
+HTML | CSS | Javascript
+</h2>
+<div className="btns" style={{height:"60px",width:"250px",margin:"auto",marginTop:"10px"}}>
+    <a href="https://creative-moxie-5738eb.netlify.app/" rel="noreferrer" target="_blank">
+<button className="live_btn" style={{height:"30px",width:"100px",border:"3px solid #ffb301",borderRadius:"10px",fontWeight:"600"}}>Live</button>
+</a>
+<a href="https://github.com/tarunas033/wholesale-sky-2474" rel="noreferrer" target="_blank">
 
+<button className="code_btn" style={{height:"30px",width:"100px",border:"3px solid #ffb301",borderRadius:"10px",fontWeight:"600"}}>Souce code</button>
+</a>
+</div>
 </div>
         </div>
 

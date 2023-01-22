@@ -1,16 +1,100 @@
-.aboutme{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+/* About Section */
+.aboutme {
+    height: 100vh; /* adjust to full height of the screen */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Text */
+.innerAboutme2 {
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #ffb301; /* add a border */
+    margin-top: 5%;
+    border-radius: 10px; /* add rounded corners */
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out; /* add animation */
+    background-color: #f7f7f7; /* add a background color */
 
 }
 
-@media screen and (max-width:740px){
-    .aboutme{
-        grid-template-columns: repeat(1,1fr);
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
-    .aboutme .aboutme2 .innerAboutme h1{
+    to {
+        opacity: 1;
+    }
+}
 
+.aboutme-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffb301; /* change color of title */
+    text-decoration: underline;
+    text-decoration-color: #ffb301;
+    margin-top: 50px;
+    animation: slideInFromLeft 1s ease-in-out; /* add animation */
+}
+
+.aboutme-text {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    line-height: 1.5; /* adjust line spacing */
+    animation: slideInFromRight 1s ease-in-out; /* add animation */
+}
+
+/* Animation Keyframes */
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+/* Media Queries */
+@media (min-width:600px) {
+    /* Increase font size on medium screens */
+    .aboutme-title {
+        font-size: 32px;
+    }
+    .aboutme-text {
         font-size: 20px;
-        font-weight: 900;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Increase font size and change layout on large screens */
+    .aboutme-title {
+        font-size: 36px;
+    }
+
+    .aboutme-text {
+        font-size: 22px;
     }
 }

@@ -2,8 +2,7 @@ import './App.css';
 import React from "react";
 import AllRoutes from "./Components/Allroutes"
 import Footer from './Components/Footer/footer';
-// import Nav from './Components/Navbar/nav';
-import Nav from './Components/Navbar/navi';
+import Nav from './Components/Navbar/nav';
 function App() {
   return <div className='app'>
       {/* <Navbar/> */}
