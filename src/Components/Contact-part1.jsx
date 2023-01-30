@@ -19,13 +19,13 @@ import {
   
   const confetti = {
     light: {
-      primary: '4299E1', // blue.400
-      secondary: 'BEE3F8', // blue.100
+      primary: '4299E1', 
+      secondary: 'BEE3F8', 
     },
   
     dark: {
-      primary: '#ffb301', // blue.900
-      secondary: '#ffb301', // blue.800
+      primary: '#ffb301', 
+      secondary: '#ffb301', 
     },
   };
   
@@ -37,7 +37,6 @@ import {
   
     return (
       <Flex
-        // bg={useColorModeValue('#ffffff', '#ffffff')}
         align="center"
         justify="center"
         css={{

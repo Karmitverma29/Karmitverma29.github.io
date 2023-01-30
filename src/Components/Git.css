@@ -1,0 +1,19 @@
+.github-stats {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .github-stats img {
+    margin: auto;
+    border: 2px solid #ffb301;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .github-stats {
+      width: 100%;
+    }
+  }
+  
