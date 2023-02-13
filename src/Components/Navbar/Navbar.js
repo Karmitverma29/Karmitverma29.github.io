@@ -20,6 +20,7 @@ function Navbar() {
 				<Link style={{fontSize:"18px",fontWeight:"600"}} to="/projects">Projects</Link>
                 <Link style={{fontSize:"18px",fontWeight:"600"}} to="/gitStats">Git Stats</Link>
 				<Link style={{fontSize:"18px",fontWeight:"600"}} to="/contact">Contact</Link>
+				
 
 				<button
 					className="nav-btn nav-close-btn"

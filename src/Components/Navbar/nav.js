@@ -82,6 +82,20 @@ function Nav() {
                 Contact Us
               </NavLink>
             </li>
+          
+            <li className="nav-item">
+  <a
+    href="https://drive.google.com/uc?id=1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP&export=download
+    "
+    target="_blank"
+    download
+    className="nav-links"
+    onClick={handleClick}
+  >
+    Resume
+  </a>
+</li>
+
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}><img style={{height:"24px",width:"24px"}} src="https://cdn-icons-png.flaticon.com/128/8166/8166618.png" alt="hamBurger"/></i>

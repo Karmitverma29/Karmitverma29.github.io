@@ -29,7 +29,7 @@ React.js | TypeScript | Redux | Chakra UI
 <img className="image" style={{height:"50%",width:"100%",borderRadius:"10px"}} src={`${process.env.PUBLIC_URL}/booking.png`} alt="img"/>
 <h1 className="heading" style={{fontSize:"24px",fontWeight:"600",textAlign:"center",marginTop:"10px",color:"#ffb301"}}>Replica of Booking.com</h1>
 <p style={{textAlign:"center",fontSize:"16px"}}>
-Booking.com BV (“Booking.com”) provides online reservation services. 
+Booking.com BV provides online reservation services. 
 </p>
 <h2 style={{textAlign:"center",fontSize:"16px"}}><span style={{color:"#ffb301",fontWeight:"600"}}>Tech Stack:</span>
 HTML | CSS | JavaScript
