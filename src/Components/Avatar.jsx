@@ -70,7 +70,7 @@ function  AvatarWithRipple(){
 <img style={{verticalAlign: "middle",
   width: "250px",
   height: "280px",
-  borderRadius: "50%",margin:"auto"}} src={`${process.env.PUBLIC_URL}/karmitverma.jpg`}  alt="Avatar" class="avatar"/>
+  borderRadius: "50%",margin:"auto"}} src={`${process.env.PUBLIC_URL}/kv.png`}  alt="Avatar" class="avatar"/>
 
 
   </div>

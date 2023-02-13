@@ -85,12 +85,12 @@ function Nav() {
           
             <li className="nav-item">
   <a
-    href="https://drive.google.com/uc?id=1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP&export=download
-    "
+    href="https://drive.google.com/uc?id=1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP"
     target="_blank"
-    download
     className="nav-links"
     onClick={handleClick}
+    download
+
   >
     Resume
   </a>
