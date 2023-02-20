@@ -49,6 +49,31 @@ function Skills(){
 
 
 </div>
+
+<div className="skill" style={{height:"50px",backgroundColor:"white",width:"100%",border:"2px solid #ffb301",borderRadius:"10px",marginTop:"5px",display:"flex",justifyContent:"center",alignItems:"center"}}>
+<img style={{height:"70%",width:"12%"}} src="https://cdn.iconscout.com/icon/free/png-256/nodejs-2-226035.png?f=avif&w=128" alt="ui"/>
+<h1 style={{fontSize:"18px",fontWeight:"600",marginLeft:"10px"}}>Node.js</h1>
+
+
+</div>
+<div className="skill" style={{height:"50px",backgroundColor:"white",width:"100%",border:"2px solid #ffb301",borderRadius:"10px",marginTop:"5px",display:"flex",justifyContent:"center",alignItems:"center"}}>
+<img style={{height:"70%",width:"12%"}} src="https://cdn.iconscout.com/icon/free/png-256/mongodb-226029.png?f=avif&w=128" alt="ui"/>
+<h1 style={{fontSize:"18px",fontWeight:"600",marginLeft:"10px"}}>MongoDB</h1>
+
+
+</div>
+<div className="skill" style={{height:"50px",backgroundColor:"white",width:"100%",border:"2px solid #ffb301",borderRadius:"10px",marginTop:"5px",display:"flex",justifyContent:"center",alignItems:"center"}}>
+<img style={{height:"70%",width:"12%"}} src="https://cdn.iconscout.com/icon/free/png-256/express-9-1175170.png?f=avif&w=128" alt="ui"/>
+<h1 style={{fontSize:"18px",fontWeight:"600",marginLeft:"10px"}}>Express.js</h1>
+
+
+</div>
+<div className="skill" style={{height:"50px",backgroundColor:"white",width:"100%",border:"2px solid #ffb301",borderRadius:"10px",marginTop:"5px",display:"flex",justifyContent:"center",alignItems:"center"}}>
+<img style={{height:"70%",width:"12%"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWH1PUfUVWt5B21piBpyWcN6uBQ_aUvl1Ry6Pc3dM&s" alt="ui"/>
+<h1 style={{fontSize:"18px",fontWeight:"600",marginLeft:"10px"}}>Mongoose</h1>
+
+
+</div>
 </div>
 </div>
 <div style={{}}>
@@ -88,6 +113,18 @@ function Skills(){
 <img style={{height:"70%",width:"12%"}} src="https://img.icons8.com/external-tal-revivo-fresh-tal-revivo/512/external-npm-a-package-manager-for-the-javascript-programming-language-logo-fresh-tal-revivo.png" alt=""/>
 
 <h1 style={{fontSize:"18px",fontWeight:"600",marginLeft:"10px"}}>NPM</h1>
+
+</div>
+<div className="skill" style={{height:"50px",backgroundColor:"white",width:"100%",border:"2px solid #ffb301",marginTop:"5px",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"10px"}}>
+<img style={{height:"70%",width:"12%"}} src="https://www.cyclic.sh/images/cyclic-logo.png" alt=""/>
+
+<h1 style={{fontSize:"18px",fontWeight:"600",marginLeft:"10px"}}>Cyclic</h1>
+
+</div>
+<div className="skill" style={{height:"50px",backgroundColor:"white",width:"100%",border:"2px solid #ffb301",marginTop:"5px",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"10px"}}>
+<img style={{height:"70%",width:"12%"}} src="data:image/png;base64,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" alt=""/>
+
+<h1 style={{fontSize:"18px",fontWeight:"600",marginLeft:"10px"}}>Swagger</h1>
 
 </div>
 </div>
