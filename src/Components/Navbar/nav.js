@@ -11,7 +11,7 @@ function Nav() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink  exact to="/" className="nav-logo">
-           <span style={{color:"black"}}>Karmit Verma </span>  
+           <span style={{color:"black",fontWeight:"bolder",fontFamily:"Comic Sans MS"}}>Karmit Verma</span>  
             <i className="fas fa-code"></i>
           </NavLink>
 
