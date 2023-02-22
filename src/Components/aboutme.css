@@ -1,6 +1,5 @@
-/* About Section */
 .aboutme {
-    height: 100vh; /* adjust to full height of the screen */
+    height: 100vh; 
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -8,24 +7,22 @@
     justify-content: center;
 }
 
-/* Text */
 .innerAboutme2 {
     max-width: 600px;
     margin: auto;
-    border: 2px solid #ffb301; /* add a border */
+    border: 2px solid #ffb301; 
     margin-top: 5%;
-    border-radius: 10px; /* add rounded corners */
+    border-radius: 10px; 
     text-align: center;
     font-size: 18px;
     color: black;
     font-weight: 600;
     padding: 30px;
-    animation: fadeIn 1s ease-in-out; /* add animation */
-    background-color: #f7f7f7; /* add a background color */
+    animation: fadeIn 1s ease-in-out;
+    background-color: #f7f7f7; 
 
 }
 
-/* Animation Keyframes */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -38,11 +35,11 @@
 .aboutme-title {
     font-size: 28px;
     font-weight: 700;
-    color: #ffb301; /* change color of title */
+    color: #ffb301;
     text-decoration: underline;
     text-decoration-color: #ffb301;
     margin-top: 50px;
-    animation: slideInFromLeft 1s ease-in-out; /* add animation */
+    animation: slideInFromLeft 1s ease-in-out; 
 }
 
 .aboutme-text {
@@ -50,11 +47,10 @@
     font-size: 18px;
     color: black;
     font-weight: 600;
-    line-height: 1.5; /* adjust line spacing */
-    animation: slideInFromRight 1s ease-in-out; /* add animation */
+    line-height: 1.5; 
+    animation: slideInFromRight 1s ease-in-out; 
 }
 
-/* Animation Keyframes */
 @keyframes slideInFromLeft {
     from {
         transform: translateX(-200px);
@@ -77,9 +73,7 @@
     }
 }
 
-/* Media Queries */
 @media (min-width:600px) {
-    /* Increase font size on medium screens */
     .aboutme-title {
         font-size: 32px;
     }
@@ -89,7 +83,6 @@
 }
 
 @media (min-width: 1200px) {
-    /* Increase font size and change layout on large screens */
     .aboutme-title {
         font-size: 36px;
     }

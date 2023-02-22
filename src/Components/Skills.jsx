@@ -6,7 +6,7 @@ const Skills = () => {
     <div>
       <div className="skills-container">
         <div className="skills-section">
-          <h2>Tech Stack</h2>
+          <h2 style={{fontWeight:"900",backgroundColor:"#ffffff"}}>Tech Stack</h2>
           <div style={{backgroundColor:"#ffb301",border:"3px solid #ffffff",borderRadius:"10px"}} className="skills-icons">
             <div className="skill">
               <img src="https://img.icons8.com/color/50/000000/react-native.png" alt="React" />
@@ -55,7 +55,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="skills-section">
-          <h2>Tools</h2>
+          <h2 style={{fontWeight:"900",backgroundColor:"#ffffff"}}>Tools</h2>
           <div style={{backgroundColor:"#ffb301",border:"3px solid #ffffff",borderRadius:"10px"}} className="skills-icons">
             <div className="skill">
               <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" />
