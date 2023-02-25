@@ -22,4 +22,4 @@ function Git() {
   );
 }
 
-export default Git;
+export {Git};

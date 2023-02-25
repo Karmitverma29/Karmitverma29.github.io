@@ -1,99 +1,111 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./nav.css";
 
 function Nav() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+
   return (
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink  exact to="/" className="nav-logo">
-           <span style={{color:"black",fontWeight:"bolder",fontFamily:"Comic Sans MS"}}>Karmit Verma</span>  
+        <Link
+            to="home"
+            className="nav-logo"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            <span style={{ color: "black", fontWeight: "bolder", fontFamily: "Comic Sans MS" }}>
+              Karmit Verma
+            </span>
             <i className="fas fa-code"></i>
-          </NavLink>
-
+          </Link>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
+              <Link
+                to="home"
                 className="nav-links"
+                spy={true}
+                smooth={true}
+                duration={500}
                 onClick={handleClick}
               >
                 Home
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/about"
-                activeClassName="active"
+              <Link
+                to="about"
                 className="nav-links"
+                spy={true}
+                smooth={true}
+                duration={500}
                 onClick={handleClick}
               >
                 About
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/skills"
-                activeClassName="active"
+              <Link
+                to="skills"
                 className="nav-links"
+                spy={true}
+                smooth={true}
+                duration={500}
                 onClick={handleClick}
               >
                 Skills
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/projects"
-                activeClassName="active"
+              <Link
+                to="projects"
                 className="nav-links"
+                spy={true}
+                smooth={true}
+                duration={500}
                 onClick={handleClick}
               >
                 Projects
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/gitStats"
-                activeClassName="active"
+              <Link
+                to="git"
                 className="nav-links"
+                spy={true}
+                smooth={true}
+                duration={500}
                 onClick={handleClick}
               >
                 Git Stats
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
+              <Link
+                to="contact"
                 className="nav-links"
+                spy={true}
+                smooth={true}
+                duration={500}
                 onClick={handleClick}
               >
                 Contact Us
-              </NavLink>
+              </Link>
             </li>
-          
             <li className="nav-item">
-              <a style={{color:"#ffffff"}} href="/Karmit_Verma_Resume.pdf" download onClick={()=>{
-    window.open("https://drive.google.com/file/d/1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP/view?usp=sharing", "_blank")
- }}> Resume</a>
-         
-  
-           </li>
-
+              <a style={{ color: "#ffffff" }} href="/Karmit_Verma_Resume.pdf" download>
+                Resume
+              </a>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}><img style={{height:"24px",width:"24px"}} src="https://cdn-icons-png.flaticon.com/128/8166/8166618.png" alt="hamBurger"/></i>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}>
+              <img style={{ height: "24px", width: "24px" }} src="https://cdn-icons-png.flaticon.com/128/8166/8166618.png" alt="hamBurger" />
+            </i>
           </div>
         </div>
       </nav>
@@ -101,4 +113,4 @@ function Nav() {
   );
 }
 
-export default Nav
+export default Nav;
