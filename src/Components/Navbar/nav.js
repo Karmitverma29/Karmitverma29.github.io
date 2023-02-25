@@ -84,17 +84,12 @@ function Nav() {
             </li>
           
             <li className="nav-item">
-  <a
-    href="https://drive.google.com/uc?id=1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP"
-    target="_blank"
-    className="nav-links"
-    onClick={handleClick}
-    download
-
-  >
-    Resume
-  </a>
-</li>
+              <a style={{color:"#ffffff"}} href="/Karmit_Verma_Resume.pdf" download onClick={()=>{
+    window.open("https://drive.google.com/file/d/1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP/view?usp=sharing", "_blank")
+ }}> Resume</a>
+         
+  
+           </li>
 
           </ul>
           <div className="nav-icon" onClick={handleClick}>

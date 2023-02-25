@@ -20,7 +20,9 @@ function Home(){
 <h2 style={{textAlign:"center",fontSize:"35px",fontWeight:"600",marginTop:"20px",color:"#ffb301"}}>{<Intro/>}</h2>
 <p  style={{textAlign:"center",fontSize:"18px",fontWeight:"600",color:"#black",marginTop:"10px"}}>Passionate full-stack web developer with strong technical and <br /> non-technical skills and a commitment to building useful, <br /> interactive web applications.</p>
 <AvatarWithRipple/>
-<a href="https://drive.google.com/uc?export=download&id=1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP"  rel="noreferrer" target="_blank" > <Button onMouseLeave={OnLeave}    onMouseEnter={change} style={{backgroundColor:"#ffb301",marginTop:"15px"}}  >Resume ⮞</Button></a>
+ <Button as="a" href="/Karmit_Verma_Resume.pdf" download onClick={()=>{
+    window.open("https://drive.google.com/file/d/1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP/view?usp=sharing", "_blank")
+ }}  onMouseLeave={OnLeave}    onMouseEnter={change} style={{backgroundColor:"#ffb301",marginTop:"15px"}}  >Resume ⮞</Button>
 </div>
 
 
