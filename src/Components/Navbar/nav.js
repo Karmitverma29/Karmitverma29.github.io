@@ -17,6 +17,7 @@ function Nav() {
             spy={true}
             smooth={true}
             duration={500}
+            
           >
             <span style={{ color: "black", fontWeight: "bolder", fontFamily: "Comic Sans MS" }}>
               Karmit Verma
@@ -68,6 +69,7 @@ function Nav() {
                 smooth={true}
                 duration={500}
                 onClick={handleClick}
+                
               >
                 Projects
               </Link>

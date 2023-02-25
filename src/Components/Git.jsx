@@ -5,7 +5,7 @@ import "./Git.css";
 
 function Git() {
   return (
-    <div>
+    <div style={{padding:"30px"}} id="git">
       <GitHubCalender username="Karmitverma29" style={{margin:"auto",marginTop:"40px"}} />
       <div className="github-stats">
         <img

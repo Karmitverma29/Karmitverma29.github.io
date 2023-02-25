@@ -13,7 +13,7 @@ function Home(){
         e.target.style.background = '#ffb301';
 
     }
-    return <div >
+    return <div id="home">
         <div style={{height:"550px",width:"100%",textAlign:"center"}}>
         
 <h1 style={{textAlign:"center",fontSize:"35px",fontWeight:"600",marginTop:"70px",color:"black"}}>Hi, I am Karmit Verma,</h1>

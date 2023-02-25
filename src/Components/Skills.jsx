@@ -3,7 +3,7 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <div className="skills-container">
         <div className="skills-section">
           <h2 style={{fontWeight:"900"}}>Tech Stack</h2>
