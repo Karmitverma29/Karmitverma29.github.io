@@ -1,94 +1,25 @@
 .aboutme {
-    height: 100vh; 
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.innerAboutme2 {
-    max-width: 600px;
-    margin: auto;
-    border: 2px solid #ffb301; 
-    margin-top: 5%;
-    border-radius: 10px; 
+    background-color: #F9F9F9;
+    padding: 50px;
     text-align: center;
-    font-size: 18px;
+    margin-top: 30px;
+  }
+  
+  .aboutme-title {
+    font-size: 3rem;
+    color: #fbb301;
+    margin-bottom: 20px;
+  }
+  
+  .aboutme-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
     color: black;
-    font-weight: 600;
-    padding: 30px;
-    animation: fadeIn 1s ease-in-out;
-    background-color: #f7f7f7; 
-
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.aboutme-title {
-    font-size: 28px;
-    font-weight: 700;
-    color: #ffb301;
-    text-decoration: underline;
-    text-decoration-color: #ffb301;
-    margin-top: 50px;
-    animation: slideInFromLeft 1s ease-in-out; 
-}
-
-.aboutme-text {
-    text-align: center;
-    font-size: 18px;
-    color: black;
-    font-weight: 600;
-    line-height: 1.5; 
-    animation: slideInFromRight 1s ease-in-out; 
-}
-
-@keyframes slideInFromLeft {
-    from {
-        transform: translateX(-200px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes slideInFromRight {
-    from {
-        transform: translateX(200px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity:1;
-    }
-}
-
-@media (min-width:600px) {
-    .aboutme-title {
-        font-size: 32px;
-    }
-    .aboutme-text {
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .aboutme-title {
-        font-size: 36px;
-    }
-
-    .aboutme-text {
-        font-size: 22px;
-    }
-}
+    margin-bottom: 40px;
+  }
+  
+  .innerAboutme2 {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

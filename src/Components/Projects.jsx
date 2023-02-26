@@ -3,7 +3,11 @@ import "./projects.css";
 
 function Projects() {
   return (
+    <div>
+            <h1 style={{fontSize: "3rem",color: "black",textAlign: "center", marginTop: "50px",fontWeight:"700"}}>Projects</h1>
+
     <div className="projects-container" id="projects">
+
       <div className="project-card">
         <img
           className="project-image"
@@ -170,7 +174,7 @@ function Projects() {
       </div>
       
       </div>
-      
+      </div>
         
 );
 }

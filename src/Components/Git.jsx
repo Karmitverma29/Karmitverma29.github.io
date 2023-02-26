@@ -6,6 +6,8 @@ import "./Git.css";
 function Git() {
   return (
     <div style={{padding:"30px"}} id="git">
+                  <h1 style={{fontSize: "3rem",color: "black",textAlign: "center", marginTop: "50px",fontWeight:"700"}}>GitHub Stats</h1>
+
       <GitHubCalender username="Karmitverma29" style={{margin:"auto",marginTop:"40px"}} />
       <div className="github-stats">
         <img

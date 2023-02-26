@@ -41,7 +41,11 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
-    border-bottom: 3px solid transparent;
+    border-bottom: 3px solid transparent; 
+
+  }
+  .nav-links:hover{
+    cursor: pointer;
   }
   .fa-code {
     margin-left: 1rem;
@@ -69,6 +73,8 @@
   .nav-item .active {
     color: black;
     border: 1px solid #ffffff;
+    border-radius: 5px;
+
   }
   
   .nav-icon {

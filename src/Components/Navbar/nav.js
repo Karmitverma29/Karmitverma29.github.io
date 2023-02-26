@@ -11,15 +11,20 @@ function Nav() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-        <Link
+          <Link
             to="home"
             className="nav-logo"
             spy={true}
             smooth={true}
             duration={500}
-            
           >
-            <span style={{ color: "black", fontWeight: "bolder", fontFamily: "Comic Sans MS" }}>
+            <span
+              style={{
+                color: "black",
+                fontWeight: "bolder",
+                fontFamily: "Comic Sans MS",
+              }}
+            >
               Karmit Verma
             </span>
             <i className="fas fa-code"></i>
@@ -69,7 +74,6 @@ function Nav() {
                 smooth={true}
                 duration={500}
                 onClick={handleClick}
-                
               >
                 Projects
               </Link>
@@ -99,14 +103,22 @@ function Nav() {
               </Link>
             </li>
             <li className="nav-item">
-              <a style={{ color: "#ffffff" }} href="/Karmit_Verma_Resume.pdf" download>
+              <a
+                style={{ color: "#ffffff" }}
+                href="/Karmit_Verma_Resume.pdf"
+                download
+              >
                 Resume
               </a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}>
-              <img style={{ height: "24px", width: "24px" }} src="https://cdn-icons-png.flaticon.com/128/8166/8166618.png" alt="hamBurger" />
+              <img
+                style={{ height: "24px", width: "24px" }}
+                src="https://cdn-icons-png.flaticon.com/128/8166/8166618.png"
+                alt="hamBurger"
+              />
             </i>
           </div>
         </div>
