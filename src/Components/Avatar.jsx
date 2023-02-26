@@ -68,9 +68,10 @@ function  AvatarWithRipple(){
   return <div>
 
 <img style={{verticalAlign: "middle",
-  width: "250px",
-  height: "280px",
-  margin:"auto"}} src={`${process.env.PUBLIC_URL}/kv.png`}  alt="Avatar" class="avatar"/>
+  width: "230px",
+  height: "310px",
+  borderRadius:"40%",
+  margin:"auto",marginBottom:"60px"}} src={`${process.env.PUBLIC_URL}/kvpp.jpg`}  alt="Avatar" class="avatar"/>
 
 
   </div>
