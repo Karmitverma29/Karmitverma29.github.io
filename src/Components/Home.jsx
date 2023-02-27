@@ -22,7 +22,7 @@ function Home(){
 <AvatarWithRipple/>
  <Button as="a" href="/Karmit_Verma_Resume.pdf" download onClick={()=>{
     window.open("https://drive.google.com/file/d/1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP/view?usp=sharing", "_blank")
- }}  onMouseLeave={OnLeave}    onMouseEnter={change} style={{backgroundColor:"#ffb301",marginTop:"15px"}}  >Resume ⮞</Button>
+ }}  onMouseLeave={OnLeave}    onMouseEnter={change} style={{backgroundColor:"#ffb301"}}  >Resume ⮞</Button>
 </div>
 
 
