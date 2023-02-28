@@ -17,7 +17,7 @@ function Projects() {
         <h1 className="project-title">Buylance</h1>
         <p className="project-description">
           An online one-stop fashion portal for apparel, footwear and
-          accessories. Aims at providing a hassle free and enjoyable shopping experience to shoppers across the country
+          accessories. Aims at providing a hassle free and enjoyable shopping experience to shoppers across the country.
         </p>
         <h2 className="project-tech-stack">
           <span className="project-tech-stack-title">Tech Stack:</span>
