@@ -17,7 +17,7 @@ function Projects() {
         <h1 className="project-title">Buylance</h1>
         <p className="project-description">
           An online one-stop fashion portal for apparel, footwear and
-          accessories.
+          accessories. Aims at providing a hassle free and enjoyable shopping experience to shoppers across the country
         </p>
         <h2 className="project-tech-stack">
           <span className="project-tech-stack-title">Tech Stack:</span>
@@ -49,7 +49,7 @@ function Projects() {
         />
         <h1 className="project-title">Replica of Booking.com</h1>
         <p className="project-description">
-          Booking.com BV provides online reservation services.
+          Booking.com provides online reservation services.Booking.com, headquartered in Amsterdam, is one of the largest online travel agencies. It is a subsidiary of Booking Holdings.
         </p>
         <h2 className="project-tech-stack">
           <span className="project-tech-stack-title">Tech Stack:</span>
@@ -81,8 +81,7 @@ function Projects() {
         />
         <h1 className="project-title">Replica of NordStorm (E-commerce)</h1>
         <p className="project-description">
-          Nordstrom is an American luxury department store that offers a wide
-          variety of things.
+        Nordstrom, Inc. is an American luxury department store chain headquartered in Seattle, Washington, and founded by John W. Nordstrom and Carl F. Wallin in 1901. 
         </p>
         <h2 className="project-tech-stack">
           <span className="project-tech-stack-title">Tech Stack:</span>
@@ -113,8 +112,7 @@ function Projects() {
         />
         <h1 className="project-title">Replica of Mailtrap</h1>
         <p className="project-description">
-        Mailtrap is a fake SMTP server designed to test, view, and share emails.
-
+        Mailtrap Email Delivery Platform is an end-to-end sending solution for businesses and individuals to Test, Send, and Control emails in one place. You can inspect and debug emails in staging with Email Testing. 
         </p>
         <h2 className="project-tech-stack">
           <span className="project-tech-stack-title">Tech Stack:</span>
@@ -147,9 +145,7 @@ function Projects() {
         />
         <h1 className="project-title">Replica of Rodan & Fields</h1>
         <p className="project-description">
-        Rodan&Fields is an American multi-level marketing company of skincare products.
-
-        </p>
+        Rodan & Fields, LLC, known as Rodan + Fields or R+F, is an American multi-level marketing company specializing in skincare products. Katie Rodan and Kathy A. Fields, creators of Proactive.      </p>
         <h2 className="project-tech-stack">
           <span className="project-tech-stack-title">Tech Stack:</span>
           HTML | CSS | Javascript
@@ -181,7 +177,8 @@ function Projects() {
         />
         <h1 className="project-title">Replica of ElectroGlad</h1>
         <p className="project-description">
-        ElectroGlad is a Ecommerce website which provides DSLR cameras & accessories.
+        ElectroGlad Camera, Inc is a camera, electronics, and film equipment retailer launched in 1974. Apart from their online shopping websites. 
+        they have a large multi-floor Chelsea store.
         </p>
         <h2 className="project-tech-stack">
           <span className="project-tech-stack-title">Tech Stack:</span>
