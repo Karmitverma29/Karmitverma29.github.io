@@ -105,8 +105,14 @@ function Nav() {
             <li className="nav-item">
               <a
                 style={{ color: "#ffffff" }}
-                href="/Karmit_Verma_Resume.pdf"
+                href="/Karmit-Verma-Resume.pdf"
                 download
+                onClick={() => {
+                  window.open(
+                    "https://drive.google.com/file/d/1vltTnwRyXTRXc4L7nuANgQXYJqkiVHGP/view?usp=sharing",
+                    "_blank"
+                  );
+                }}
               >
                 Resume
               </a>

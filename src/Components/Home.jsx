@@ -20,7 +20,7 @@ function Home() {
         <AvatarWithRipple />
         <Button
           as="a"
-          href="/Karmit_Verma_Resume.pdf"
+          href="/Karmit-Verma-Resume.pdf"
           download
           onClick={() => {
             window.open(
