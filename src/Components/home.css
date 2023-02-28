@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 115vh;
-    margin-top: 45px;
+    margin-top: 40px;
   }
   
   .home-content {
@@ -88,7 +88,6 @@
     .home-description {
       font-size: 1rem;
       margin-top: 20px;
-      font-weight: bold;
     }
   
     .home-button {
@@ -97,4 +96,14 @@
       margin-top: 20px;
     }
   }
-  
+  @media screen and (min-width:300px)  {
+    #home{
+      margin-top: 80px;
+    }
+    .home-title{
+      font-size: 2rem;
+    }
+    .home-description{
+      text-align: center;
+    }
+  }
