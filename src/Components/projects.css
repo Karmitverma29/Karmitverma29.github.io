@@ -5,7 +5,7 @@
   margin: 2rem;
 }
 #projects{
-  padding: 50px;
+  padding: 30px;
 }
 
 .project-card {
@@ -99,9 +99,11 @@
     font-size: 1rem;
   }
   .project-code-btn {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    height: 45px;
+
   }
   .project-live-btn {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
