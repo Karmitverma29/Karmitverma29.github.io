@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Footer from './Components/Footer/footer';
 import Nav from './Components/Navbar/nav';
 import {About} from "./Components/About";
@@ -10,7 +10,9 @@ import { Contact } from './Components/Contact';
 
 function App() {
  
-
+  useEffect(() => {
+    document.title = 'Portfolio'; 
+  }, []);
   return (
     <div className='app'>
       <Nav />
