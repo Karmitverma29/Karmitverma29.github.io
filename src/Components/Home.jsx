@@ -8,9 +8,7 @@ function Home() {
   return (
     <div id="home">
       <div className="home-content">
-        <div className="home-left">
-          <AvatarWithRipple />
-        </div>
+       
         <div className="home-right">
           <h1 className="home-title">Hi, I am Karmit Verma,</h1>
           <h2 className="home-subtitle">
@@ -36,6 +34,9 @@ function Home() {
           >
             Resume ⮞
           </Button>
+        </div>
+        <div className="home-left">
+          <AvatarWithRipple />
         </div>
       </div>
     </div>
