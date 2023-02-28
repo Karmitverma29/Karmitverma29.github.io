@@ -4,6 +4,9 @@
   grid-gap: 2rem;
   margin: 2rem;
 }
+#projects{
+  padding: 50px;
+}
 
 .project-card {
   background-color: #fff;
