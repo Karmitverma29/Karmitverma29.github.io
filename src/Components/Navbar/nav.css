@@ -122,3 +122,8 @@
       color: #ffdd40;
     }
 }
+@media screen and (max-width: 1027px) {
+  .nav-links {
+    white-space: nowrap;
+  }
+}

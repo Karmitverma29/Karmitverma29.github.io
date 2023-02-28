@@ -47,10 +47,8 @@
 .project-description {
   margin-top: 1rem;
   font-size: 1.2rem;
-  height: 100px;
-  overflow: hidden;
-  text-overflow: ellipsis;
   font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 
 .project-tech-stack {
@@ -96,7 +94,7 @@
     font-size: 1rem;
   }
   .project-tech-stack {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .project-code-btn {
     font-size: 0.8rem;
@@ -107,3 +105,4 @@
     font-size: 0.9rem;
   }
 }
+
