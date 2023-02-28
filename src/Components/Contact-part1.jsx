@@ -69,7 +69,7 @@ export default function ContactFormWithSocialButtons() {
                       variant="ghost"
                       size="xl"
                       fontSize="4xl"
-                      icon={<MdEmail size="60px" />}
+                      icon={<MdEmail size="60px" style={{marginRight:"50px"}} />}
                       _hover={{
                         bg: "#ffb301",
                         color: useColorModeValue("white", "gray.700"),
@@ -86,7 +86,7 @@ export default function ContactFormWithSocialButtons() {
                     variant="ghost"
                     size="xl"
                     fontSize="4xl"
-                    icon={<BsGithub size="60px" />}
+                    icon={<BsGithub size="60px" style={{marginRight:"50px"}} />}
                     _hover={{
                       bg: "#ffb301",
                       color: useColorModeValue("white", "gray.700"),
@@ -100,7 +100,7 @@ export default function ContactFormWithSocialButtons() {
                     aria-label="linkedin"
                     variant="ghost"
                     size="xl"
-                    icon={<BsLinkedin size="60px" />}
+                    icon={<BsLinkedin size="60px" style={{marginRight:"50px"}} />}
                     _hover={{
                       bg: "#ffb301",
                       color: useColorModeValue("white", "gray.700"),
