@@ -32,4 +32,15 @@
  .aboutme-text{
   padding: 10px;
  }
+ .aboutme{
+  padding: 30px;
+
+ }
 }
+@media only screen and (max-width: 807px) {
+ 
+  .aboutme{
+   padding: 30px;
+ 
+  }
+ }

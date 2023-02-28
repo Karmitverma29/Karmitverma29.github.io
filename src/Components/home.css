@@ -76,7 +76,7 @@
 
 @media only screen and (max-width: 300px) {
   .home-title {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 5px;
   }
 
@@ -88,6 +88,7 @@
   .home-description {
     font-size: 14px;
     margin-bottom: 20px;
+    text-align: left;
   }
 
   .home-button {
