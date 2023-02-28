@@ -3,8 +3,8 @@ import "./projects.css";
 
 function Projects() {
   return (
-    <div>
-            <h1 style={{fontSize: "3rem",color: "black",textAlign: "center", marginTop: "50px",fontWeight:"700"}}>Projects</h1>
+    <div id="proj-cont">
+            <h1 className="project-heading">Projects</h1>
 
     <div className="projects-container" id="projects">
 
@@ -79,7 +79,7 @@ function Projects() {
           src={`${process.env.PUBLIC_URL}/nordstorm.png`}
           alt="Replica of NordStorm project"
         />
-        <h1 className="project-title">Replica of NordStorm (E-commerce)</h1>
+        <h1 className="project-title">Replica of NordStorm </h1>
         <p className="project-description">
         Nordstrom, Inc. is an American luxury department store chain headquartered in Seattle, Washington, and founded by John W. Nordstrom and Carl F. Wallin in 1901. 
         </p>

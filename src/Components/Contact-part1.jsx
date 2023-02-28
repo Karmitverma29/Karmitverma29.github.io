@@ -12,6 +12,7 @@ import {
     useClipboard,
     useColorModeValue,
     VStack,
+    Text
   } from '@chakra-ui/react';
   import React from 'react';
   import { BsGithub, BsLinkedin} from 'react-icons/bs';
@@ -49,7 +50,7 @@ import {
           m={{ base: 5, md: 16, lg: 10 }}
           p={{ base: 5, lg: 16 }}>
           <Box>
-            <VStack spacing={{ base: 4, md: 8, lg: 20 }}>
+            <VStack spacing={{ base: 4, md: 8, lg: 28 }}>
               <Heading
                 fontSize={{
                   base: '4xl',
@@ -61,68 +62,79 @@ import {
               </Heading>
   
               <Stack
-                spacing={{ base: 4, md: 8, lg: 20 }}
-                direction={{ base: 'column', md: 'row' }}>
-                <Stack
-                  align="center"
-                  justify="space-around"
-                  direction={{ base: 'row', md: 'column' }}>
-                <Link href='mailto:karmittech2004@gmail.com'>
-                  <Tooltip
-                    label={hasCopied ? 'Email Copied!' : 'Copy Email'}
-                    closeOnClick={false}
-                    hasArrow>
-                        
-                    <IconButton
-                      aria-label="email"
-                      variant="ghost"
-                      size="lg"
-                      fontSize="3xl"
-                      icon={<MdEmail />}
-                      _hover={{
-                        bg: '#ffb301',
-                        color: useColorModeValue('white', 'gray.700'),
-                      }}
-                      onClick={onCopy}
-                      isRound
-                    />
-                  </Tooltip>
-                  </Link>
-  
-                  <Link href="https://github.com/Karmitverma29">
-                    <IconButton
-                      aria-label="github"
-                      variant="ghost"
-                      size="lg"
-                      fontSize="3xl"
-                      icon={<BsGithub />}
-                      _hover={{
-                        bg: '#ffb301',
-                        color: useColorModeValue('white', 'gray.700'),
-                      }}
-                      isRound
-                    />
-                  </Link>
-  
-                  
-  
-                  <Link href="https://www.linkedin.com/in/karmit2004/">
-                    <IconButton
-                      aria-label="linkedin"
-                      variant="ghost"
-                      size="lg"
-                      icon={<BsLinkedin size="28px" />}
-                      _hover={{
-                        bg: '#ffb301',
-                        color: useColorModeValue('white', 'gray.700'),
-                      }}
-                      isRound
-                    />
-                  </Link>
-                </Stack>
-  
-               
-              </Stack>
+  spacing={{ base: 4, md: 8, lg: 20 }}
+  direction={{ base: 'column', md: 'row' }}
+>
+  <Stack
+    align="center"
+    justify="space-around"
+    direction={{ base: 'column', md: 'row' }}
+  >
+    <Link href='mailto:karmittech2004@gmail.com'>
+      <Tooltip
+        label={hasCopied ? 'Email Copied!' : 'Copy Email'}
+        closeOnClick={false}
+        hasArrow
+      >
+        <IconButton
+          aria-label="email"
+          variant="ghost"
+          size="xl"
+          fontSize="4xl"
+          icon={<MdEmail size="60px" />}
+          _hover={{
+            bg: '#ffb301',
+            color: useColorModeValue('white', 'gray.700'),
+          }}
+          onClick={onCopy}
+          isRound
+        />
+      </Tooltip>
+    </Link>
+
+    <Link href="https://github.com/Karmitverma29">
+      <IconButton
+        aria-label="github"
+        variant="ghost"
+        size="xl"
+        fontSize="4xl"
+        icon={<BsGithub size="60px" />}
+        _hover={{
+          bg: '#ffb301',
+          color: useColorModeValue('white', 'gray.700'),
+        }}
+        isRound
+      />
+    </Link>
+
+    <Link href="https://www.linkedin.com/in/karmit2004/">
+      <IconButton
+        aria-label="linkedin"
+        variant="ghost"
+        size="xl"
+        icon={<BsLinkedin size="60px" />}
+        _hover={{
+          bg: '#ffb301',
+          color: useColorModeValue('white', 'gray.700'),
+        }}
+        isRound
+      />
+    </Link>
+  </Stack>
+
+  <Box align="center">
+    <Text fontSize="xl" fontWeight="semibold">
+      Contact Me
+    </Text>
+    <Link href="tel:+918875082247">
+      <Text fontSize="2xl" fontWeight="bold">
+        +91 88750 82247
+      </Text>
+    </Link>
+  </Box>
+</Stack>
+
+
             </VStack>
           </Box>
         </Box>

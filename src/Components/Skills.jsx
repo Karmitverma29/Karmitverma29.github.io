@@ -54,8 +54,8 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="skills-section">
-          <h2 style={{fontWeight:"900"}}>Tools</h2>
+        <div className="skills-section" id="tools-sec">
+          <h2 style={{fontWeight:"900",marginTop:"0px"}}>Tools</h2>
           <div style={{backgroundColor:"#ffb301",border:"3px solid #ffffff",borderRadius:"10px"}} className="skills-icons">
             <div className="skill">
               <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" />
