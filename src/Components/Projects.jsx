@@ -173,6 +173,38 @@ function Projects() {
         </div>
       </div>
       
+      <div className="project-card">
+        <img
+          className="project-image"
+          src={`${process.env.PUBLIC_URL}/electroglad.png`}
+          alt="Replica of NordStorm project"
+        />
+        <h1 className="project-title">Replica of ElectroGlad</h1>
+        <p className="project-description">
+        ElectroGlad is a Ecommerce website which provides DSLR cameras & accessories.
+        </p>
+        <h2 className="project-tech-stack">
+          <span className="project-tech-stack-title">Tech Stack:</span>
+          React | Redux | Javascript | Chakra UI | Node.js | MongoDB
+
+        </h2>
+        <div className="project-buttons">
+          <a
+            href="https://elecroglad.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="project-live-btn">Live</button>
+          </a>
+          <a
+            href="https://github.com/JyotiranjanGhibila/creepy-skin-4061"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="project-code-btn">Source code</button>
+          </a>
+        </div>
+      </div>
       </div>
       </div>
         
