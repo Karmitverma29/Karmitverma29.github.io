@@ -187,7 +187,7 @@ function Projects() {
           <p className="project-description">
             ElectroGlad Camera, Inc is a camera, electronics, and film equipment
             retailer launched in 1974. Apart from their online shopping
-            websites. they have a large multi-floor Chelsea store.
+            websites. They have a large multi-floor Chelsea store.
           </p>
           <h2 className="project-tech-stack">
             <span className="project-tech-stack-title">Tech Stack:</span>
