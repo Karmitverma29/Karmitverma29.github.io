@@ -93,14 +93,14 @@ function Projects() {
           </h2>
           <div className="project-buttons">
             <a
-              href="https://elastic-afterthought-7316.vercel.app/index.html"
+              href="https://benevolent-sunshine-c2ea8d.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
               <button className="project-live-btn">Live</button>
             </a>
             <a
-              href="https://github.com/Karmitverma29/elastic-afterthought-7316"
+              href="https://github.com/srock2580/red-sail-4113"
               target="_blank"
               rel="noreferrer"
             >
@@ -203,6 +203,39 @@ function Projects() {
             </a>
             <a
               href="https://github.com/JyotiranjanGhibila/creepy-skin-4061"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="project-code-btn">Source code</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img
+            className="project-image"
+            src={`${process.env.PUBLIC_URL}/shopunder669.png`}
+            alt="Replica of NordStorm project"
+          />
+          <h1 className="project-title">Replica of SHOPUNDER669</h1>
+          <p className="project-description">
+          ShopUnder669 is an online shopping platform offering a wide range of products
+at affordable prices, with a focus on items priced under ₹669.
+          </p>
+          <h2 className="project-tech-stack">
+            <span className="project-tech-stack-title">Tech Stack:</span>
+            HTML | CSS | Javascript | Bootstrap | Node.js | MongoDB
+          </h2>
+          <div className="project-buttons">
+            <a
+              href="https://shopunder669-alpha.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="project-live-btn">Live</button>
+            </a>
+            <a
+              href="https://github.com/Karmitverma29/Shopunder669"
               target="_blank"
               rel="noreferrer"
             >
