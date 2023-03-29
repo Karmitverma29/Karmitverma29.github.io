@@ -25,7 +25,7 @@ function Projects() {
           </h2>
           <div className="project-buttons">
             <a
-              href="https://buylance.netlify.app/"
+              href="https://buylance.vercel.app"
               target="_blank"
               rel="noreferrer"
             >
