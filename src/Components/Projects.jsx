@@ -195,7 +195,7 @@ function Projects() {
           </h2>
           <div className="project-buttons">
             <a
-              href="https://elecroglad.vercel.app/"
+              href="https://electro-glad-web-app.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
