@@ -15,7 +15,8 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-      document.title = 'Portfolio'; 
+      document.title = 'Karmit Verma'; 
+      
     }, 4000);
 
     return () => clearTimeout(timer);
