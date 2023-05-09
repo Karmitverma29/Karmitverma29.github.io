@@ -6,6 +6,15 @@
 
 
   }
+  #dark-mode-skills{
+    margin-top: 200px;
+    height: auto;
+    padding: 45px;
+    background-color: black;
+  }
+  .dark-mode-techh{
+    color: #ffffff;
+  }
   .skills-section {
     padding: 20px;
   }

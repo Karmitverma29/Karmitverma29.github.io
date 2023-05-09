@@ -1,26 +1,29 @@
-import React from "react";
+import React,{useContext}from "react";
 import "./projects.css";
+import { ThemeContext } from "../Components/Theme";
 
 function Projects() {
+  const{darkMode}=useContext(ThemeContext);
+
   return (
-    <div id="projects">
-      <h1 className="project-heading">Projects</h1>
+    <div id={darkMode?"dark-mode-projects":"projects"}>
+      <h1 className={darkMode?"dark-mode-project-heading":"project-heading"}>Projects</h1>
 
       <div className="projects-container">
-        <div className="project-card">
+        <div className={darkMode?"dark-mode-project-card":"project-card"}>
           <img
             className="project-image"
             src={`${process.env.PUBLIC_URL}/buylance.png`}
             alt="Buylance project"
           />
-          <h1 className="project-title">Buylance</h1>
-          <p className="project-description">
+          <h1 className={darkMode?"dark-mode-project-title":"project-title"}>Buylance</h1>
+          <p className={darkMode?"dark-mode-project-desc":"project-description"}>
             An online one-stop fashion portal for apparel, footwear and
             accessories. Aims at providing a hassle free and enjoyable shopping
             experience to shoppers across the country.
           </p>
-          <h2 className="project-tech-stack">
-            <span className="project-tech-stack-title">Tech Stack:</span>
+        <h2 className={darkMode?"dark-mode-project-tech-stack":"project-tech-stack"}>
+            <span className={darkMode?"dark-mode-project-tech-stack-title":"project-tech-stack-title"}>Tech Stack:</span>
             React.js | TypeScript | Redux | Chakra UI
           </h2>
           <div className="project-buttons">
@@ -41,20 +44,20 @@ function Projects() {
           </div>
         </div>
 
-        <div className="project-card">
+        <div className={darkMode?"dark-mode-project-card":"project-card"}>
           <img
             className="project-image"
             src={`${process.env.PUBLIC_URL}/booking.png`}
             alt="Replica of Booking.com project"
           />
-          <h1 className="project-title">Replica of Booking.com</h1>
-          <p className="project-description">
+          <h1 className={darkMode?"dark-mode-project-title":"project-title"}>Replica of Booking.com</h1>
+          <p className={darkMode?"dark-mode-project-desc":"project-description"}>
             Booking.com provides online reservation services.Booking.com,
             headquartered in Amsterdam, is one of the largest online travel
             agencies. It is a subsidiary of Booking Holdings.
           </p>
-          <h2 className="project-tech-stack">
-            <span className="project-tech-stack-title">Tech Stack:</span>
+          <h2  className={darkMode?"dark-mode-project-tech-stack":"project-tech-stack"}>
+            <span className={darkMode?"dark-mode-project-tech-stack-title":"project-tech-stack-title"}>Tech Stack:</span>
             HTML | CSS | JavaScript
           </h2>
           <div className="project-buttons">
@@ -75,20 +78,20 @@ function Projects() {
           </div>
         </div>
 
-        <div className="project-card">
+        <div className={darkMode?"dark-mode-project-card":"project-card"}>
           <img
             className="project-image"
             src={`${process.env.PUBLIC_URL}/nordstorm.png`}
             alt="Replica of NordStorm project"
           />
-          <h1 className="project-title">Replica of NordStorm </h1>
-          <p className="project-description">
+          <h1 className={darkMode?"dark-mode-project-title":"project-title"}>Replica of NordStorm </h1>
+          <p className={darkMode?"dark-mode-project-desc":"project-description"}>
             Nordstrom, Inc. is an American luxury department store chain
             headquartered in Seattle, Washington, and founded by John W.
             Nordstrom and Carl F. Wallin in 1901.
           </p>
-          <h2 className="project-tech-stack">
-            <span className="project-tech-stack-title">Tech Stack:</span>
+          <h2 className={darkMode?"dark-mode-project-tech-stack":"project-tech-stack"}>
+            <span className={darkMode?"dark-mode-project-tech-stack-title":"project-tech-stack-title"}>Tech Stack:</span>
             HTML | CSS | JavaScript
           </h2>
           <div className="project-buttons">
@@ -108,21 +111,21 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="project-card">
+        <div className={darkMode?"dark-mode-project-card":"project-card"}>
           <img
             className="project-image"
             src={`${process.env.PUBLIC_URL}/mailtrap.png`}
             alt="Replica of NordStorm project"
           />
-          <h1 className="project-title">Replica of Mailtrap</h1>
-          <p className="project-description">
+          <h1 className={darkMode?"dark-mode-project-title":"project-title"}>Replica of Mailtrap</h1>
+          <p className={darkMode?"dark-mode-project-desc":"project-description"}>
             Mailtrap Email Delivery Platform is an end-to-end sending solution
             for businesses and individuals to Test, Send, and Control emails in
             one place. You can inspect and debug emails in staging with Email
             Testing.
           </p>
-          <h2 className="project-tech-stack">
-            <span className="project-tech-stack-title">Tech Stack:</span>
+          <h2 className={darkMode?"dark-mode-project-tech-stack":"project-tech-stack"}>
+            <span className={darkMode?"dark-mode-project-tech-stack-title":"project-tech-stack-title"}>Tech Stack:</span>
             React.js | HTML | CSS | Javascript
           </h2>
           <div className="project-buttons">
@@ -143,20 +146,20 @@ function Projects() {
           </div>
         </div>
 
-        <div className="project-card">
+        <div className={darkMode?"dark-mode-project-card":"project-card"}>
           <img
             className="project-image"
             src={`${process.env.PUBLIC_URL}/rodan.png`}
             alt="Replica of NordStorm project"
           />
-          <h1 className="project-title">Replica of Rodan & Fields</h1>
-          <p className="project-description">
+          <h1 className={darkMode?"dark-mode-project-title":"project-title"}>Replica of Rodan & Fields</h1>
+          <p className={darkMode?"dark-mode-project-desc":"project-description"}>
             Rodan & Fields, LLC, known as Rodan + Fields or R+F, is an American
             multi-level marketing company specializing in skincare products.
             Katie Rodan and Kathy A. Fields, creators of Proactive.{" "}
           </p>
-          <h2 className="project-tech-stack">
-            <span className="project-tech-stack-title">Tech Stack:</span>
+          <h2 className={darkMode?"dark-mode-project-tech-stack":"project-tech-stack"}>
+            <span className={darkMode?"dark-mode-project-tech-stack-title":"project-tech-stack-title"}>Tech Stack:</span>
             HTML | CSS | Javascript
           </h2>
           <div className="project-buttons">
@@ -177,20 +180,20 @@ function Projects() {
           </div>
         </div>
 
-        <div className="project-card">
+        <div className={darkMode?"dark-mode-project-card":"project-card"}>
           <img
             className="project-image"
             src={`${process.env.PUBLIC_URL}/electroglad.png`}
             alt="Replica of NordStorm project"
           />
-          <h1 className="project-title">Replica of ElectroGlad</h1>
-          <p className="project-description">
+          <h1 className={darkMode?"dark-mode-project-title":"project-title"}>Replica of ElectroGlad</h1>
+          <p className={darkMode?"dark-mode-project-desc":"project-description"}>
             ElectroGlad Camera, Inc is a camera, electronics, and film equipment
             retailer launched in 1974. Apart from their online shopping
             websites. They have a large multi-floor Chelsea store.
           </p>
-          <h2 className="project-tech-stack">
-            <span className="project-tech-stack-title">Tech Stack:</span>
+          <h2 className={darkMode?"dark-mode-project-tech-stack":"project-tech-stack"}>
+            <span className={darkMode?"dark-mode-project-tech-stack-title":"project-tech-stack-title"}>Tech Stack:</span>
             React | Redux | Javascript | Chakra UI | Node.js | MongoDB
           </h2>
           <div className="project-buttons">
@@ -211,19 +214,19 @@ function Projects() {
           </div>
         </div>
 
-        <div className="project-card">
+        <div className={darkMode?"dark-mode-project-card":"project-card"}>
           <img
             className="project-image"
             src={`${process.env.PUBLIC_URL}/shopunder669.png`}
             alt="Replica of NordStorm project"
           />
-          <h1 className="project-title">Replica of SHOPUNDER669</h1>
-          <p className="project-description">
+          <h1 className={darkMode?"dark-mode-project-title":"project-title"}>Replica of SHOPUNDER669</h1>
+          <p className={darkMode?"dark-mode-project-desc":"project-description"}>
           ShopUnder669 is an online shopping platform offering a wide range of products
 at affordable prices, with a focus on items priced under ₹669.
           </p>
-          <h2 className="project-tech-stack">
-            <span className="project-tech-stack-title">Tech Stack:</span>
+          <h2 className={darkMode?"dark-mode-project-tech-stack":"project-tech-stack"}>
+            <span className={darkMode?"dark-mode-project-tech-stack-title":"project-tech-stack-title"}>Tech Stack:</span>
             HTML | CSS | Javascript | Bootstrap | Node.js | MongoDB
           </h2>
           <div className="project-buttons">

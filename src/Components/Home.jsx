@@ -1,12 +1,14 @@
-import React from "react";
+import React,{useContext} from "react";
 import Intro from "./Intro";
 import AvatarWithRipple from "./Avatar";
 import { Button } from "@chakra-ui/react";
 import "./home.css";
+import { ThemeContext } from "../Components/Theme";
 
 function Home() {
+  const{darkMode}=useContext(ThemeContext);
   return (
-    <div id="home">
+    <div id={darkMode?"dark-mode-home":"home"}>
       <div className="home-content">
        
         <div className="home-right">

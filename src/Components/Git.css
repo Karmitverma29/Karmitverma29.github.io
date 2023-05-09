@@ -4,6 +4,9 @@
     margin-top: 30px;
   }
   
+  #dark-mode-git{
+    background-color: black;
+  }
   .github-stats img {
     margin: auto;
     border: 2px solid #ffb301;

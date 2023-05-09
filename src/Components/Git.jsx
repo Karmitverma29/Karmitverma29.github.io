@@ -1,11 +1,14 @@
-import React from "react";
+import React ,{useContext}from "react";
 import GitHubCalender from "react-github-calendar";
+import { ThemeContext } from "../Components/Theme";
 
 import "./Git.css"; 
 
 function Git() {
+  const{darkMode}=useContext(ThemeContext);
+
   return (
-    <div style={{padding:"30px"}} id="git">
+    <div style={{padding:"30px"}} id={darkMode?"dark-mode-git":"git"}>
                   <h1 style={{fontSize: "3rem",color: "black",textAlign: "center", marginTop: "50px",fontWeight:"700"}}>GitHub Statistics</h1>
 
       <GitHubCalender username="Karmitverma29" style={{margin:"auto",marginTop:"40px"}} />

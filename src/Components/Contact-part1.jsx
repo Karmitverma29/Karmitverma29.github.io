@@ -11,13 +11,16 @@ import {
   VStack,
   Text,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useContext } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-
+import { ThemeContext } from "../Components/Theme";
 
 export default function ContactFormWithSocialButtons() {
   const { hasCopied, onCopy } = useClipboard("example@example.com");
+  const { darkMode } = useContext(ThemeContext);
+
+  const iconColor = darkMode ? "#ffffff" : "black";
 
   return (
     <Flex
@@ -41,7 +44,7 @@ export default function ContactFormWithSocialButtons() {
                 md: "5xl",
               }}
               style={{
-                color: "black",
+                color: darkMode ? "#ffffff" : "black",
                 textDecoration: "underline",
                 textDecorationColor: "#ffb301",
               }}
@@ -69,7 +72,12 @@ export default function ContactFormWithSocialButtons() {
                       variant="ghost"
                       size="xl"
                       fontSize="4xl"
-                      icon={<MdEmail size="60px" style={{marginRight:"50px"}} />}
+                      icon={
+                        <MdEmail
+                          size="60px"
+                          style={{ marginRight: "50px", color: iconColor }}
+                        />
+                      }
                       _hover={{
                         bg: "#ffb301",
                         color: useColorModeValue("white", "gray.700"),
@@ -86,7 +94,12 @@ export default function ContactFormWithSocialButtons() {
                     variant="ghost"
                     size="xl"
                     fontSize="4xl"
-                    icon={<BsGithub size="60px" style={{marginRight:"50px"}} />}
+                    icon={
+                      <BsGithub
+                        size="60px"
+                        style={{ marginRight: "50px", color: iconColor }}
+                      />
+                    }
                     _hover={{
                       bg: "#ffb301",
                       color: useColorModeValue("white", "gray.700"),
@@ -100,30 +113,42 @@ export default function ContactFormWithSocialButtons() {
                     aria-label="linkedin"
                     variant="ghost"
                     size="xl"
-                    icon={<BsLinkedin size="60px" style={{marginRight:"50px"}} />}
+                    icon={
+                      <BsLinkedin
+                        size="60px"
+                        style={{ marginRight: "50px", color: iconColor }}
+                      />
+                    }
                     _hover={{
                       bg: "#ffb301",
                       color: useColorModeValue("white", "gray.700"),
                     }}
                     isRound
-                  />
-                </Link>
-              </Stack>
-
-              <Box align="center">
-                <Text fontSize="xl" fontWeight="semibold">
-                  Contact Me
-                </Text>
-                <Link href="tel:+918875082247">
-                  <Text fontSize="2xl" fontWeight="bold">
+                    />
+                    </Link>
+                    </Stack>
+                    <Box align="center">
+                    <Text
+                    fontSize="xl"
+                    fontWeight="semibold"
+                    color={darkMode ? "#ffffff" : "black"}
+                    >
+                    Contact Me
+                    </Text>
+                    <Link href="tel:+918875082247">
+                    <Text
+                    fontSize="2xl"
+                    fontWeight="bold"
+                    color={darkMode ? "#ffffff" : "black"}
+                    >
                     +91 88750 82247
-                  </Text>
-                </Link>
-              </Box>
-            </Stack>
-          </VStack>
-        </Box>
-      </Box>
-    </Flex>
-  );
-}
+                    </Text>
+                    </Link>
+                    </Box>
+                    </Stack>
+                    </VStack>
+                    </Box>
+                    </Box>
+                    </Flex>
+                    );
+                    }

@@ -7,7 +7,16 @@
   margin-top: 60px;
   padding: 30px;
 }
-
+#dark-mode-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: black;
+  margin-top: 60px;
+  padding: 30px;
+  color: #ffffff;
+}
 .home-content {
   display: flex;
   flex-direction: column;

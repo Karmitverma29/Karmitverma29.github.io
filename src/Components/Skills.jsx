@@ -1,12 +1,15 @@
-import React from "react";
+import React,{useContext} from "react";
 import "./Skills.css";
+import { ThemeContext } from "../Components/Theme";
 
 const Skills = () => {
+  const{darkMode}=useContext(ThemeContext);
+
   return (
-    <div id="skills">
+  <div  id={darkMode?"dark-mode-skills":"skills"}>
       <div className="skills-container">
         <div className="skills-section">
-          <h2 style={{fontWeight:"900"}}>Tech Stack</h2>
+          <h2 className={darkMode?"dark-mode-techh":"techh"} style={{fontWeight:"900"}}>Tech Stack</h2>
           <div style={{backgroundColor:"#ffb301",border:"3px solid #ffffff",borderRadius:"10px"}} className="skills-icons">
             <div className="skill">
               <img src="https://img.icons8.com/color/50/000000/react-native.png" alt="React" />
@@ -55,7 +58,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="skills-section" id="tools-sec">
-          <h2 style={{fontWeight:"900",marginTop:"0px"}}>Tools</h2>
+          <h2 className={darkMode?"dark-mode-techh":"techh"}  style={{fontWeight:"900",marginTop:"0px"}}>Tools</h2>
           <div style={{backgroundColor:"#ffb301",border:"3px solid #ffffff",borderRadius:"10px"}} className="skills-icons">
             <div className="skill">
               <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" />

@@ -8,6 +8,16 @@
   flex-direction: column;
   margin-top: 40px;
 }
+.dark-mode-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
 
 .innerAboutme2 {
   max-width: 800px;
@@ -24,6 +34,14 @@
   font-size: 1.5rem;
   line-height: 1.5;
   color: black;
+  margin-bottom: 40px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.dark-mode-aboutme-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #f9f9f9;
   margin-bottom: 40px;
   text-align: justify;
   text-justify: inter-word;

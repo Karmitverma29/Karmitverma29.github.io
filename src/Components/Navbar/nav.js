@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 import { Link } from "react-scroll";
 import "./nav.css";
+import { ThemeContext } from "../Theme";
+
 
 function Nav() {
   const [click, setClick] = useState(false);
-
+const{darkMode,toggleDarkMode}=useContext(ThemeContext);
   const handleClick = () => setClick(!click);
-
+const handledark=()=>{
+  toggleDarkMode();
+}
   return (
     <>
       <nav className="navbar">
@@ -118,6 +122,21 @@ function Nav() {
               </a>
             </li>
           </ul>
+          <button onClick={handledark}>
+          {darkMode ? (
+              <img
+                style={{ height: "30px", width: "30px" }}
+                src="https://cdn.iconscout.com/icon/premium/png-256-thumb/brightness-3274675-2742570.png?f=avif&w=128"
+                alt="Dark Mode"
+              /> // Dark mode icon
+            ) : (
+              <img
+                style={{ height: "30px", width: "30px" }}
+                src="https://cdn.iconscout.com/icon/premium/png-256-thumb/brightness-3274588-2742627.png?f=avif&w=128"
+                alt="Light Mode"
+              /> // Light mode icon
+            )}
+          </button>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}>
               <img

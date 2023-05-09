@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect ,useContext} from "react";
 import Footer from './Components/Footer/footer';
 import Nav from './Components/Navbar/nav';
 import {About} from "./Components/About";
@@ -8,9 +8,11 @@ import { Home } from './Components/Home';
 import {Git} from './Components/Git';
 import { Contact } from './Components/Contact';
 import Loader from './Components/Loader';
-
+import { ThemeContext } from "./Components/Theme";
+import "./App.css"
 function App() {
   const [loading, setLoading] = useState(true);
+  const{darkMode}=useContext(ThemeContext);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -23,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <div className='app'>
+    <div className={darkMode?"dark-mode-app":"app"}>
       {loading ? <Loader /> :
       <>
         <Nav />
