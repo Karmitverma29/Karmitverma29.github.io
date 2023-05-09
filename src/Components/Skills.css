@@ -52,7 +52,7 @@
     margin-top: 0px;
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px){
     .skills-icons {
       flex-direction: column;
     }

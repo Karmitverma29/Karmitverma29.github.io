@@ -44,39 +44,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className={darkMode?"dark-mode-project-card":"project-card"}>
-          <img
-            className="project-image"
-            src={`${process.env.PUBLIC_URL}/booking.png`}
-            alt="Replica of Booking.com project"
-          />
-          <h1 className={darkMode?"dark-mode-project-title":"project-title"}>Replica of Booking.com</h1>
-          <p className={darkMode?"dark-mode-project-desc":"project-description"}>
-            Booking.com provides online reservation services.Booking.com,
-            headquartered in Amsterdam, is one of the largest online travel
-            agencies. It is a subsidiary of Booking Holdings.
-          </p>
-          <h2  className={darkMode?"dark-mode-project-tech-stack":"project-tech-stack"}>
-            <span className={darkMode?"dark-mode-project-tech-stack-title":"project-tech-stack-title"}>Tech Stack:</span>
-            HTML | CSS | JavaScript
-          </h2>
-          <div className="project-buttons">
-            <a
-              href="https://elastic-afterthought-7316.vercel.app/index.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="project-live-btn">Live</button>
-            </a>
-            <a
-              href="https://github.com/Karmitverma29/elastic-afterthought-7316"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="project-code-btn">Source code</button>
-            </a>
-          </div>
-        </div>
+    
 
         <div className={darkMode?"dark-mode-project-card":"project-card"}>
           <img
