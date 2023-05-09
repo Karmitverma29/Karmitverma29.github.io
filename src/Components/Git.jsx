@@ -9,7 +9,7 @@ function Git() {
 
   return (
     <div style={{padding:"30px"}} id={darkMode?"dark-mode-git":"git"}>
-                  <h1 style={{fontSize: "3rem",color: "black",textAlign: "center", marginTop: "50px",fontWeight:"700"}}>GitHub Statistics</h1>
+                  <h1 className={darkMode?"git-title-dark":"git-title"} style={{fontSize: "3rem",textAlign: "center", marginTop: "50px",fontWeight:"700"}}>GitHub Statistics</h1>
 
       <GitHubCalender username="Karmitverma29" style={{margin:"auto",marginTop:"40px"}} />
       <div className="github-stats">

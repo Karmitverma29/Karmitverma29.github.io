@@ -13,6 +13,9 @@
     border-radius: 10px;
     width: 100%;
   }
+  .git-title-dark{
+    color: #ffffff;
+  }
   
   @media only screen and (max-width: 768px) {
     .github-stats {
