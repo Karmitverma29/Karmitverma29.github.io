@@ -14,7 +14,7 @@ import {
 import React, { useContext } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { ThemeContext } from "../Components/Theme";
+import { ThemeContext } from "../Pages/Theme";
 
 export default function ContactFormWithSocialButtons() {
   const { hasCopied, onCopy } = useClipboard("example@example.com");

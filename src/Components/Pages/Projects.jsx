@@ -1,6 +1,6 @@
 import React,{useContext}from "react";
-import "./projects.css";
-import { ThemeContext } from "../Components/Theme";
+import "../Styles/projects.css";
+import { ThemeContext } from "./Theme";
 
 function Projects() {
   const{darkMode}=useContext(ThemeContext);

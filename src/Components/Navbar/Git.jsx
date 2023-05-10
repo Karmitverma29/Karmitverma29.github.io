@@ -1,8 +1,8 @@
 import React ,{useContext}from "react";
 import GitHubCalender from "react-github-calendar";
-import { ThemeContext } from "../Components/Theme";
+import { ThemeContext } from "../Pages/Theme";
 
-import "./Git.css"; 
+import "../Styles/Git.css"; 
 
 function Git() {
   const{darkMode}=useContext(ThemeContext);

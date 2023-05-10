@@ -1,14 +1,14 @@
 import React, { useState, useEffect ,useContext} from "react";
 import Footer from './Components/Footer/footer';
 import Nav from './Components/Navbar/nav';
-import {About} from "./Components/About";
-import {Skills} from './Components/Skills';
-import { Projects } from './Components/Projects';
-import { Home } from './Components/Home';
-import {Git} from './Components/Git';
-import { Contact } from './Components/Contact';
-import Loader from './Components/Loader';
-import { ThemeContext } from "./Components/Theme";
+import {About} from "./Components/Pages/About";
+import {Skills} from './Components/Pages/Skills';
+import { Projects } from './Components/Pages/Projects';
+import { Home } from './Components/Pages/Home';
+import {Git} from './Components/Navbar/Git';
+import { Contact } from './Components/Navbar/Contact';
+import Loader from './Components/Pages/Loader';
+import { ThemeContext } from "./Components/Pages/Theme";
 import "./App.css"
 function App() {
   const [loading, setLoading] = useState(true);

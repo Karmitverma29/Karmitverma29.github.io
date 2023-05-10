@@ -1,6 +1,6 @@
 import React,{useContext} from "react";
-import "./aboutme.css";
-import { ThemeContext } from "../Components/Theme";
+import "../Styles/aboutme.css";
+import { ThemeContext } from "./Theme";
 
 
 function About() {

@@ -1,9 +1,9 @@
 import React,{useContext} from "react";
 import Intro from "./Intro";
-import AvatarWithRipple from "./Avatar";
+import AvatarWithRipple from "../Navbar/Avatar";
 import { Button } from "@chakra-ui/react";
-import "./home.css";
-import { ThemeContext } from "../Components/Theme";
+import "../Styles/home.css";
+import { ThemeContext } from "./Theme";
 
 function Home() {
   const{darkMode}=useContext(ThemeContext);

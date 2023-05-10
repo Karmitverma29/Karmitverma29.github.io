@@ -1,6 +1,6 @@
 import React,{useContext} from "react";
-import "./Contact.css"
-import { ThemeContext } from "../Components/Theme";
+import "../Styles/Contact.css"
+import { ThemeContext } from "../Pages/Theme";
 
 import ContactFormWithSocialButtons from "./Contact-part1";
 function Contact(){

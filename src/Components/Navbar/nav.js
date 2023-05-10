@@ -1,7 +1,7 @@
 import React, { useState,useContext } from "react";
 import { Link } from "react-scroll";
 import "./nav.css";
-import { ThemeContext } from "../Theme";
+import { ThemeContext } from "../Pages/Theme";
 
 
 function Nav() {
